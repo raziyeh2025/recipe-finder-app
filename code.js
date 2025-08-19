@@ -7,6 +7,10 @@ btnShow.addEventListener("click", async function SearchRecipe() {
   try {
     const name = inputName.value.trim();
     divResult.innerHTML = "";
+    if (name === "") {
+      divResult.innerHTML = "please type a food name!";
+      return;
+    }
 
     divResult.innerHTML = "Loading...";
     const response = await fetch(apiURL + name);
@@ -26,7 +30,6 @@ btnShow.addEventListener("click", async function SearchRecipe() {
       div.classList.add("meal");
       divResult.appendChild(div);
     });
-
   } catch (error) {
     divResult.textContent = "Error";
   }
