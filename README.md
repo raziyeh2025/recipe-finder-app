@@ -46,7 +46,7 @@ recipe-finder-app/
 ---
 
 📸 Screenshot
-![recipe-finder-app screenshot].(screenshot.png)
+![recipe-finder-app Screenshot].(screenshot.png)
 
 📦 How to Run
 
