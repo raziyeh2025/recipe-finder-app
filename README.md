@@ -36,7 +36,7 @@ TheMealDB API for fetching recipes
 
 📂 Project Structure
 
-recipe-finder/
+recipe-finder-app/
 │── index.html     # Main HTML file
 │── style.css      # Styling
 │── code.js      # Functionality
