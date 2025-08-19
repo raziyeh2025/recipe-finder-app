@@ -46,7 +46,7 @@ recipe-finder/
 ---
 
 📸 Screenshot
-www.github.io/raziyeh2025/recipe-finder-app/screenshot
+www.github.io/raziyeh2025/recipe-finder-app/screenshot.png
 
 
 📦 How to Run
